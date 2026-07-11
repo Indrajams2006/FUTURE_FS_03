@@ -88,11 +88,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Lightweight, elegant, long-lasting jewellery designed for everyday wear without losing shine.",
+          "Nira Collection offers lightweight, elegant, anti-tarnish daily wear jewellery. Perfect for everyday shine. DM @niraa_.collections to order.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@niraa_.collections" },
+      { name: "twitter:title", content: "Nira Collection | Anti-Tarnish Daily Wear Jewellery" },
+      { name: "twitter:description", content: "Nira Collection offers lightweight, elegant, anti-tarnish daily wear jewellery. Perfect for everyday shine. DM @niraa_.collections to order." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c82c737-3764-444a-a957-8aefb267bfcd/id-preview-857ea413--6f06d63e-9ae9-4455-98a1-aee4e1119fd4.lovable.app-1783788672370.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c82c737-3764-444a-a957-8aefb267bfcd/id-preview-857ea413--6f06d63e-9ae9-4455-98a1-aee4e1119fd4.lovable.app-1783788672370.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
